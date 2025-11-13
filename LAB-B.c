@@ -22,9 +22,9 @@ int main()
 //Perform arithmetic operators; addition, subtraction, multiplication, and division
 
     printf("Arithmetic operators; +,-,*,/\n");
-    int x = 88, y = 11;
-        printf("x = 88\n");
-        printf("y = 11\n");
+    int x = 95, y = 8;
+        printf("x = 95\n");
+        printf("y = 8\n");
     printf("\n");
     int addition = x + y;
     int subtraction = x - y;
@@ -42,8 +42,8 @@ int main()
 
     printf("Logical operators (The value 1 means true and the value 0 means false)\n");
     //using the same value
-        printf("x = 88\n");
-        printf("y = 11\n");
+        printf("x = 95\n");
+        printf("y = 8\n");
 
     printf("\n");
 
@@ -61,8 +61,8 @@ int main()
         printf("Assignment operators");
     printf("\n");
     //using the same value
-        printf("x = 88\n");
-        printf("y = 11\n");
+        printf("x = 95\n");
+        printf("y = 8\n");
     printf("\n");
     x += 2;
     y *= 21;

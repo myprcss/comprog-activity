@@ -5,7 +5,6 @@
 
 int main()
 {
-  
 //Perform arithmetic operators; addition, subtraction, multiplication, and division
 
     printf("Arithmetic operators; +,-,*,/\n");

@@ -62,7 +62,7 @@ int main()
     printf("\n");
     //using the same value
         printf("x = 95\n");
-        printf("y = 8\n");
+        printf("y = 6\n");
     printf("\n");
     x += 2;
     y *= 21;

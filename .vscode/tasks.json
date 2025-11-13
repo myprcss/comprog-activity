@@ -1,0 +1,8 @@
+"args": [
+    "-fdiagnostics-color=always",
+    "-g",
+    "${file}",
+    "-o",
+    "${fileDirname}\\${fileBasenameNoExtension}.exe",
+    "-mconsole"
+]

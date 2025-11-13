@@ -6,7 +6,7 @@
 int main()
 {
  
-    printf("Declaring Variables\n");
+   printf("Declaring Variables\n");
     printf("\n");
     int age = 20;
     float height = 147.32;
@@ -14,21 +14,17 @@ int main()
     char gender = 'F';
 
     printf("Age: %d\n", age);
-    printf("Height: %.2f\n", height);
+    printf("Height: %.2fcm \n", height);
     printf("Weight: %.10lf\n", weight);
-    printf("Gender: %c", gender);
-    printf("\n");
-    printf("Age: %d\n", age);
-    printf("Height: %.2f\n", height);
-    printf("Weight: %.10lf\n", height);
+    printf("Gender: %c\n", gender);
     printf("\n");
 
 //Perform arithmetic operators; addition, subtraction, multiplication, and division
 
     printf("Arithmetic operators; +,-,*,/\n");
-    int x = 40, y = 6;
-        printf("x = 90\n");
-        printf("y = 6\n");
+    int x = 88, y = 11;
+        printf("x = 88\n");
+        printf("y = 11\n");
     printf("\n");
     int addition = x + y;
     int subtraction = x - y;
@@ -46,8 +42,8 @@ int main()
 
     printf("Logical operators (The value 1 means true and the value 0 means false)\n");
     //using the same value
-        printf("x = 90\n");
-        printf("y = 6\n");
+        printf("x = 88\n");
+        printf("y = 11\n");
 
     printf("\n");
 
@@ -65,8 +61,8 @@ int main()
         printf("Assignment operators");
     printf("\n");
     //using the same value
-        printf("x = 90\n");
-        printf("y = 6\n");
+        printf("x = 88\n");
+        printf("y = 11\n");
     printf("\n");
     x += 2;
     y *= 21;
@@ -110,5 +106,6 @@ int main()
     }
     printf("\n");
     printf("\n");
+
     return 0;
 } 

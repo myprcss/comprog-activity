@@ -5,20 +5,6 @@
 
 int main()
 {
- 
-   printf("Declaring Variables\n");
-    printf("\n");
-    int age = 20;
-    float height = 147.32;
-    double weight = 43.3242234543;
-    char gender = 'F';
-
-    printf("Age: %d\n", age);
-    printf("Height: %.2fcm \n", height);
-    printf("Weight: %.10lf\n", weight);
-    printf("Gender: %c\n", gender);
-    printf("\n");
-
 //Perform arithmetic operators; addition, subtraction, multiplication, and division
 
     printf("Arithmetic operators; +,-,*,/\n");
@@ -71,16 +57,16 @@ int main()
     printf("\n");
 
 // Using Loops
-    printf("Using while loop to print numbers from 1 to 10\n");
+    printf("Using while loop to print numbers from 1 to 15\n");
     int a = 1;
-    while (a <= 10){
+    while (a <= 15){
         printf(" %d ", a);
      a++;}
     printf("\n");
     printf("\n");
-    printf("Using for loop to print even numbers from 2 to 20\n");
+    printf("Using for loop to print descending number from 20-2 with difference of 2\n");
     int b;
-    for(b = 2; b <= 20; b +=2){
+    for(b = 20; b >= 2; b -= 2){
         printf(" %d ", b);
     }
     printf("\n");

@@ -5,6 +5,19 @@
 
 int main()
 {
+     printf("Declaring Variables\n");
+    printf("\n");
+    int age = 20;
+    float height = 147.32;
+    double weight = 43.3242234543;
+    char gender = 'F';
+
+    printf("Age: %d\n", age);
+    printf("Height: %.2fcm \n", height);
+    printf("Weight: %.10lf\n", weight);
+    printf("Gender: %c\n", gender);
+    printf("\n");
+
 //Perform arithmetic operators; addition, subtraction, multiplication, and division
 
     printf("Arithmetic operators; +,-,*,/\n");
